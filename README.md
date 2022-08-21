@@ -20,8 +20,7 @@ where xxx.c is the name of the C file.
 - The program monitor16.c reads (monitor16 addr) or writes (monitor16 addr value_w) 2-byte numbers, i.e.,
 ```                                                                                                    
 monitor16 0x40000030 0xf            
-```
-turnn on LEDs 0-3
+```turns on LEDs 0-3
                                                                                                        
 # Credits                                                                                              
                                                                                                        
