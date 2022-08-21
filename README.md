@@ -1,8 +1,6 @@
 # RedPitaya-C-Periphery                                                                                
-Simple programs to control the RedPitaya board based on c-periphery.                                   
-                                                                                                       
-                                                                                                       
-                                                                                                       
+Extremely simple programs to control the RedPitaya board in C based on c-periphery.                                   
+                                                                                                                                    
                                                                                                        
 # Usage                                                                                                
                                                                                                        
@@ -21,7 +19,7 @@ The program leds_counter.c will display a binary incremental counter at a rate o
                                                                                                        
 # Credits                                                                                              
                                                                                                        
-These programas are straigthforward applications of the c-periphery code available at                  
+These programas are straightforward applications of the c-periphery code available at                  
                                                                                                        
 https://github.com/vsergeev/c-periphery                                                                
                                                                                                        
