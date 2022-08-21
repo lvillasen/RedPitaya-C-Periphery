@@ -1,5 +1,5 @@
 # RedPitaya-C-Periphery                                                                                
-Extremely simple programs to control the RedPitaya board in C based on c-periphery.                                   
+Extremely simple C programs to control the RedPitaya board with the official ecosystem based on c-periphery .                                   
                                                                                                                                     
                                                                                                        
 # Usage                                                                                                
@@ -16,6 +16,12 @@ gcc xxx.c mmio.c -o xxx
 where xxx.c is the name of the C file.                                                                 
                                                                                                        
 - The program leds_counter.c displays a binary incremental counter at a rate of 1Hz on the leds of the RedPitaya board.
+
+- The program monitor16.c reads (monitor16 addr) or writes (monitor16 addr value_w) 2-byte numbers, i.e.,
+```                                                                                                    
+monitor16 0x40000030 0xf            
+```
+turnn on LEDs 0-3
                                                                                                        
 # Credits                                                                                              
                                                                                                        
