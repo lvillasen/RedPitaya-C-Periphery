@@ -1,5 +1,5 @@
 # RedPitaya-C-Periphery                                                                                
-Extremely simple C programs to control the RedPitaya board with the official ecosystem based on c-periphery .                                   
+Extremely simple C programs to control the RedPitaya board with the official ecosystem. These programs are based on c-periphery.                                   
                                                                                                                                     
                                                                                                        
 # Usage                                                                                                
