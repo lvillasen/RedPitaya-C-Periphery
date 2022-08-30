@@ -6,13 +6,11 @@
 
 #include<stdio.h>
 #include<math.h>
-#define ADC_MASK 0x3fff 
 #define GAIN 20.0 
 //#define GAIN 1.0 
 //######################################## inputs
 //CHANNEL = 1 # 1 
 //########################################
- 
 int v_to_counts(float voltage)
 {
     unsigned int  adc_cnts ;
@@ -35,7 +33,6 @@ float counts_to_v(unsigned int counts)
         voltage =  GAIN*((counts-pow(2,13))/pow(2,13) -1);
     return voltage;
 }
-
 int main(int argc, char **argv) {                                                                                                                 
     int i;                                                                                                                                        
     uint32_t addr;                                                                                                                                
