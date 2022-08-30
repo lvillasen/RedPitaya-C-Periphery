@@ -11,7 +11,7 @@ Copy the src folder to the RedPitaya
 Compile the C programs with                                                                            
                                                                                                        
 ```                                                                                                    
-gcc xxx.c mmio.c -o xxx               
+gcc xxx.c mmio.c -lm -o xxx               
 ```                                                                                                    
 where xxx.c is the name of the C file.                                                                 
                                                                                                        
@@ -21,6 +21,12 @@ where xxx.c is the name of the C file.
 ```                                                                                                    
 monitor16 0x40000030 0xf            
 ```
+
+- The program acquire_SINGLE.c acquires SIZE samples of a triggered signal with trigger value TRIGGER 
+```                                                                                                    
+acquire_SINGLE SIZE TRIGGER           
+```
+where TRIGGER is in volts
                                                                                                        
 # Credits                                                                                              
                                                                                                        
