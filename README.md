@@ -22,11 +22,11 @@ where xxx.c is the name of the C file.
 monitor16 0x40000030 0xf            
 ```
 
-- The program acquire_SINGLE.c acquires SIZE samples of a triggered signal with trigger value TRIGGER 
+- The program acquire_SINGLE.c acquires SIZE samples of a triggered signal with trigger value TRIGGER where TRIGGER is in volts
 ```                                                                                                    
 acquire_SINGLE SIZE TRIGGER           
 ```
-where TRIGGER is in volts
+
                                                                                                        
 # Credits                                                                                              
                                                                                                        
