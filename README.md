@@ -22,6 +22,11 @@ where xxx.c is the name of the C file.
 monitor16 0x40000030 0xf            
 ```
 
+- The program monitor32.c reads (monitor32 addr) or writes (monitor32 addr value_w) 4-byte numbers from address addr, i.e., to turn on LEDs 0-3 use:
+```                                                                                                    
+monitor32 0x40000030 0xf            
+```
+
 - The program acquire_SINGLE.c acquires SIZE samples of a triggered signal on CH1 with trigger value TRIGGER (in volts) and GAIN = 20. 
 ```                                                                                                    
 acquire_SINGLE SIZE TRIGGER           
