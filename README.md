@@ -27,6 +27,16 @@ monitor16 0x40000030 0xf
 acquire_SINGLE SIZE TRIGGER           
 ```
 
+- The program generate_BURST.c generates an arbitrary wave in burst or continuous mode. Define your arbitrary function in the program, default is Sine.
+```                                                                                                    
+generator_BURST amplitude(volt) frequency(MHz) n_cycles n_replicas delay(us or 0 for continuous mode) period(ms)  
+```
+
+- The program generate_STOP.c stops continuous mode.
+```                                                                                                    
+generator_STOP  
+```
+
                                                                                                        
 # Credits                                                                                              
                                                                                                        
