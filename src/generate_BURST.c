@@ -43,7 +43,7 @@ if (argc == 7) {
         DELAY = strtol(argv[5], NULL, 0);
         PERIOD = strtol(argv[6],NULL, 0);
     } else {
-printf("Usage: generator_BURST amplitude(volt) frequency(MHz) n_cycles n_replicas delay(us or 0 for continuous mode) period(ms)  \n");
+printf("Usage: generate_BURST amplitude(volt) frequency(MHz) n_cycles n_replicas delay(us or 0 for continuous mode) period(ms)  \n");
 printf("Define your arbitrary function in the program, default is Sine  \n");
 return -1;}
     mmio_t *mmio;
