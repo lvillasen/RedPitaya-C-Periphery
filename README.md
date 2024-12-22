@@ -1,5 +1,5 @@
-# RedPitaya-C-Periphery                                                                                
-Extremely simple C programs to control the RedPitaya board with the official ecosystem. These programs are based on c-periphery.                                   
+# RedPitaya-Hello-World-Software/                                                                                
+Extremely simple C programs to control the RedPitaya board with the official memory map. These programs are based on c-periphery.                                   
                                                                                                                                     
                                                                                                        
 # Usage                                                                                                
@@ -48,5 +48,4 @@ generator_STOP
 These programas are straightforward applications of the c-periphery code available at                  
                                                                                                        
 https://github.com/vsergeev/c-periphery                                                                
-                                                                                                       
-therefore https://github.com/vsergeev deserves all the credit.                                         
+                                                                                                                                                
