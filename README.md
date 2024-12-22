@@ -2,10 +2,7 @@
 Extremely simple programs written in C to control the RedPitaya board with its official memory map. These programs are based on c-periphery.                                   
 # Usage                                                                                                
                                                                                                        
-Clone the repositiry                                                                                   
-                                                                                                       
-Copy the src folder to the RedPitaya                                                                   
-                                                                                                       
+Clone the repository on any folder of the RedPitaya board STEMLab 125-14                                                                                                                                                                                                                        
 Compile the C programs with                                                                            
                                                                                                        
 ```                                                                                                    
