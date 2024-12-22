@@ -15,7 +15,7 @@ gcc xxx.c mmio.c -lm -o xxx
 ```                                                                                                    
 where xxx.c is the name of the C file.                                                                 
                                                                                                        
-- The program leds_counter.c displays a binary incremental counter at a rate of 1Hz on the leds of the RedPitaya board.
+- The program leds_counter.c displays a binary incremental counter from 0 to 19 at a rate of 1Hz on the leds of the RedPitaya board.
 
 - The program monitor16.c reads (monitor16 addr) or writes (monitor16 addr value_w) 2-byte numbers from address addr, i.e., to turn on LEDs 0-3 use:
 ```                                                                                                    
