@@ -1,6 +1,8 @@
-# RedPitaya-Hello-World-C                                                                                
-Extremely simple programs written in C to control the RedPitaya board with its official memory map. These programs are based on c-periphery.                                   
-# Usage                                                                                                
+## RedPitaya-Hello-World-C                                                                                
+Extremely simple programs written in C to control the RedPitaya board with its official memory map. These programs are based on c-periphery.      
+### Memory Map: https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/fpga/regset/in_dev/v0.94.html
+
+## Usage                                                                                                
                                                                                                        
 Clone the repository on any folder of the RedPitaya board STEMLab 125-14                                                                                                                                                                                                                        
 Compile the C programs with                                                                            
