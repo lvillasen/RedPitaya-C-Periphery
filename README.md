@@ -39,6 +39,10 @@ generator_BURST amplitude(volt) frequency(MHz) n_cycles n_replicas delay(us or 0
 generator_STOP  
 ```
 
+Other programs in C to controls the RedPitaya board can be found here:
+
+- https://github.com/lvillasen/RedPitaya-Generate-Acquire
+
                                                                                                        
 # Credits                                                                                              
                                                                                                        
