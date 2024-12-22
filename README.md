@@ -1,7 +1,5 @@
-# RedPitaya-Hello-World-Software/                                                                                
+# RedPitaya-Hello-World-Software                                                                                
 Extremely simple C programs to control the RedPitaya board with the official memory map. These programs are based on c-periphery.                                   
-                                                                                                                                    
-                                                                                                       
 # Usage                                                                                                
                                                                                                        
 Clone the repositiry                                                                                   
