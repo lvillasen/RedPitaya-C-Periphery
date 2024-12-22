@@ -1,6 +1,6 @@
 ## RedPitaya-Hello-World-C                                                                                
 Extremely simple programs written in C to control the RedPitaya board with its official memory map. These programs are based on c-periphery.      
-#### Memory Map: https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/fpga/regset/in_dev/v0.94.html
+#### The memory map is documented here: https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/fpga/regset/in_dev/v0.94.html
 
 ### Usage                                                                                                
                                                                                                        
